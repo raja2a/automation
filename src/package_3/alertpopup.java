@@ -23,7 +23,7 @@ public class alertpopup {
 			js.executeScript("window.scrollBy(0,1000)");
 			
 			driver.findElement(By.id("confirm")).click();
-			
+			System.out.println("good");
 
 }
 }
